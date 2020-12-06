@@ -1,0 +1,93 @@
+h1 {
+	text-align: center;
+	text-shadow: 5px 2px 3px black;
+	color: #be4cbb;
+	font-family: 'Yanone Kaffeesatz';
+	font-size:50px;
+	margin: 0;
+	padding: 20px 0;
+}
+
+
+.p1 {
+	font-size: 16px;
+	color: white;
+	line-height: 2;
+	letter-spacing: 1;
+	background-color: gray;
+	padding: 0px 10px 0px 10px;
+
+}
+
+.p2 {
+	font-size: 16px;
+	color: gray;
+	line-height: 2;
+	letter-spacing: 1;
+	background-color: white;
+	padding: 0px 10px 0px 10px;
+}
+
+
+ol {
+
+	font-size: 16px;
+	color: gray;
+	line-height: 2;
+	letter-spacing: 1;
+
+}
+
+.image-1 {
+	display: block;
+	width: 350px;
+	border: 3px solid gray;
+	margin: 0 auto;
+	border-radius: 13px;
+}
+.image-2 {
+	display: block;
+	width: 150px;
+	border: 3px solid rgba(0, 0, 0, 0);
+	border-radius: 50%;
+	margin: 50px auto;
+	opacity: 0.5;
+	transform: scale(1);
+	transition: 400ms;
+
+}
+
+.image-2:hover {
+	display: block;
+	width: 150px;
+	border-radius: 50%;
+	margin: 50px auto;
+	border: 3px solid rgba(98, 240, 245, 0.7);
+	opacity: 1;
+	transform: scale(1.2)
+
+}
+
+
+
+html {
+	background-color: #be4cbb;
+}
+
+
+.p3 {
+	color: white;
+	line-height: 2;
+	letter-spacing: 1;
+	font-size: 16px;
+}
+
+
+body {
+	width: 650px;
+	margin: 0 auto;
+	background-color: black;
+	padding: 0px 20px 40px 20px;
+	border: 5px solid gray;
+}
+
