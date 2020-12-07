@@ -1,93 +1,122 @@
-h1 {
-	text-align: center;
-	text-shadow: 5px 2px 3px black;
-	color: #be4cbb;
+@font-face {
 	font-family: 'Yanone Kaffeesatz';
-	font-size:50px;
-	margin: 0;
-	padding: 20px 0;
-}
+    src: local('D:/font/Yanone Kaffeesatz');
+}	
 
-
-.p1 {
-	font-size: 16px;
+/* Заголовок: История Друида*/
+.h1 {
+	font-family: 'Yanone Kaffeesatz';
 	color: white;
-	line-height: 2;
-	letter-spacing: 1;
-	background-color: gray;
-	padding: 0px 10px 0px 10px;
+	text-align: center;
+	font-size: 50px;
+	margin: 0 auto;
+	padding: 20px 0;
+	color: rgba(190,76,187,1);
 
 }
 
-.p2 {
-	font-size: 16px;
-	color: gray;
-	line-height: 2;
-	letter-spacing: 1;
-	background-color: white;
-	padding: 0px 10px 0px 10px;
+
+/*Создание фиолетового фона страницы*/
+html {
+	background-color: purple;
 }
 
 
-ol {
-
-	font-size: 16px;
-	color: gray;
-	line-height: 2;
-	letter-spacing: 1;
-
+/*Создание тела сайта по середине шириной 650px*/
+body {
+	width: 650px;
+	border: 5px solid gray;
+	background-color: black;
+	padding: 0px 20px 40px 20px;
+	margin: 0 auto;
 }
 
+
+/*Первое прямоугольное изображение сразу под заголовком*/
 .image-1 {
 	display: block;
-	width: 350px;
-	border: 3px solid gray;
+	width: 600px;
 	margin: 0 auto;
-	border-radius: 13px;
+	border: 5px solid white;
+	border-radius: 16px;
 }
+
+
+/*Второе изображение в кружочке*/
 .image-2 {
 	display: block;
 	width: 150px;
-	border: 3px solid rgba(0, 0, 0, 0);
+	margin: -120px 0px 50px 25px;
+	border: 5px solid rgba(190,76,187,0);
 	border-radius: 50%;
-	margin: 50px auto;
 	opacity: 0.5;
-	transform: scale(1);
 	transition: 400ms;
-
 }
 
 .image-2:hover {
-	display: block;
-	width: 150px;
-	border-radius: 50%;
-	margin: 50px auto;
-	border: 3px solid rgba(98, 240, 245, 0.7);
+	border: 5px solid rgba(190,76,187,1);
 	opacity: 1;
-	transform: scale(1.2)
-
+	transform: scale(1.2);
 }
 
-
-
-html {
-	background-color: #be4cbb;
-}
-
-
-.p3 {
+/*Псс, наведи на меня*/
+.p1 {
 	color: white;
-	line-height: 2;
-	letter-spacing: 1;
-	font-size: 16px;
-}
-
-
-body {
-	width: 650px;
 	margin: 0 auto;
-	background-color: black;
-	padding: 0px 20px 40px 20px;
-	border: 5px solid gray;
+	padding: 0px 28px;
+	line-height: 1.25;
+
 }
+
+/*А это тупо, чтобы не забыть про перечисление: */
+.p2 {
+	color: white;
+	margin: 75px 0px 0px 0px;
+	line-height: 1.25;
+
+}
+
+
+/*Ссылочка на .*/
+.p3 {
+ 	color: white;
+ 	line-height: 1.25;
+
+
+}
+
+/*Перечисление чего-то под p3*/
+ol {
+ 	color: white;
+ }
+
+/*Цвет гиперссылки на страницу разработчика*/
+a {
+ 	color: rgba(190,76,187,1);
+ }
+
+
+/*Сила героя заголовок над второй картинкой*/
+.h2 {
+	font-family: 'Yanone Kaffeesatz';
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin: 50px 50px 50px 25px;
+	padding: 0px 450px 4px 0px;
+	color: rgba(190,76,187,1);
+	background-color: white;
+	width: 150px;
+}
+
+.p_h2 {
+	color: white;
+	margin: 100px 0px 0px 210px;
+	padding: 20px 20px;
+	border: 2px solid white;
+	border-radius: 16px;
+
+}
+
+
 
