@@ -93,6 +93,19 @@ ol {
 /*Цвет гиперссылки на страницу разработчика*/
 a {
  	color: rgba(190,76,187,1);
+ 	text-decoration: none;
+ 	
+ 	border-radius: 10px;
+ 	transition: 400ms;
+ 	margin: 0 auto;
+ 	padding: 1px 4px 4px 4px;
+ 	background: solid rgba(0,0,0,0);
+
+ }
+
+ a:hover {
+ 	
+ 	background: white;
  }
 
 
@@ -118,9 +131,11 @@ a {
 
 }
 
-.Вступление {
+.p_vstuplenie {
+	
+	color: white;
 	margin: 25px auto;
 	padding: 0px 28px;
-	color: white;
+	
 }
 
